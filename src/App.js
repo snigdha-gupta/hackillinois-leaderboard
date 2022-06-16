@@ -1,8 +1,11 @@
+// everything on the screen 
+
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
+    // looks like HTML but this is all JSX
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
